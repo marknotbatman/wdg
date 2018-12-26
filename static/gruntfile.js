@@ -143,17 +143,17 @@ module.exports = function(grunt) {
   // we can only load these if they are in our package.json
   // make sure you have run npm install so our app can find these
 
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-watch');
-  grunt.loadNpmTasks('/node_modules/grunt-bake');
-  grunt.loadNpmTasks('/node_modules/grunt-autoprefixer');
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-sass');
-  grunt.loadNpmTasks('/node_modules/grunt-touch');
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-copy');
-  // grunt.loadNpmTasks('/node_modules/grunt-contrib-uglify');
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-uglify-es');
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-imagemin');
-  grunt.loadNpmTasks('/node_modules/grunt-contrib-concat');
-  grunt.loadNpmTasks('/node_modules/grunt-browser-sync');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-bake');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-touch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  // grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-uglify-es');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-browser-sync');
 
   grunt.registerTask('default', ['browserSync', 'watch']);
 };
