@@ -11,12 +11,14 @@ $(document).foundation();
 
 $('.toggle').click(function() {
 	$('nav').toggleClass('open');
-
-
-  // $('.secondary-nav, .tertiary-nav').removeClass('open');
-  // $( this ).toggleClass("open");
-  // $(".primary-nav").toggleClass("open");
-  // $('header').toggleClass("lock");
 });
 
 
+$(function() {
+    $("#reg").click(function () {
+        if ($("#frm01").is(":visible"))
+            $("#frm01").slideUp(1000);
+        else
+            $("#frm01").slideDown(1000);
+    });
+});
