@@ -1,0 +1,23 @@
+header {
+	background-color:$purple-dark;
+}
+nav {
+	ul {
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		margin:0 auto;
+		li {
+			list-style:none;
+			margin-left:0rem;
+			margin-right:0rem;
+			a {
+				font-family:$serif;
+				color:#fff;
+				text-decoration: none;
+				padding:1.25rem 1rem;
+				display:inline-block;
+			}
+		}
+	}
+}
