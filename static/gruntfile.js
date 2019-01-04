@@ -38,8 +38,11 @@ module.exports = function(grunt) {
         build: {
             options: {},
             files: {
-              //Gravy
-              'dist/index.html': 'src/index.html'
+              'dist/index.html': 'src/index.html',
+              'dist/wedding-details/index.html': 'src/wedding-details/index.html',
+              'dist/book-travel/index.html': 'src/book-travel/index.html',
+              'dist/registry/index.html': 'src/registry/index.html',
+              'dist/rsvp/index.html': 'src/rsvp/index.html'
             }
         }
     },
